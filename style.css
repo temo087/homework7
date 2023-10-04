@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+
+*{  
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.frame{
+    width: 1440px;
+    height: 100vh;
+    background: #19A1AE;
+    background-image: url(assets/Oval\ Copy\ 30.svg), url(assets/Oval\ Copy\ 32.svg);
+    background-repeat: no-repeat,no-repeat;
+    background-position: left top , right bottom;
+
+}
+
+
+.box{
+    width: 350px;
+    height: 374px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #FFF;
+    box-shadow: 0px 50px 100px -20px rgba(8, 70, 94, 0.50);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+ 
+}
+.top{
+    position: relative;
+    margin-top: 0;
+    width: 350px;
+    height: 140px;
+    flex-shrink: 0;
+    border-radius: 15px 15px 0px 0px;
+    background: #41CBD3;
+    background-image: url(assets/Oval\ Copy\ 31.svg);
+    background-repeat: repeat;
+}
+
+.middle{
+    position: absolute;
+    left: 122px;
+    top: 92px;
+    width: 96px;
+    height: 96px;
+    flex-shrink: 0;
+    width: 96px;
+    height: 96px;
+    flex-shrink: 0;
+    z-index: 1;
+}
+.fw700{
+    color: #2E3349;
+    text-align: center;
+    font-family: Kumbh Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.fw400{
+    color: #6B7082;
+    text-align: center;
+    font-family: Kumbh Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.name{
+    width: 104px;
+    height: 18px;
+    display:inline
+}
+.age{
+    width: 22px;
+    height: 18px;
+    color: #6B7082;
+    text-align: center;
+    font-family: Kumbh Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.frame2{
+    width: 160px;
+    height: 23px;
+    margin: 68px 108px 139px 107px;
+}
+.location{
+    margin: -130px 0 0 0;
+}
+.followers{
+    width: 59px;
+    height: 40px;
+    justify-self: center;
+}
+.likes{
+    width: 59px;
+    height: 40px;
+    justify-self: center;
+}
+.photos{
+    width: 59px;
+    height: 40px;
+    justify-content: center;
+}
+.font{
+    color: #6B7082;
+    text-align: center;
+    font-family: Kumbh Sans;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.5px;
+}
+.bottom{
+    display: flex;
+    width: 350px;
+    height: 374px;
+    gap: 46px;
+    justify-content: center;
+    padding: 17px 0 0 0 ;
+    letter-spacing: 1.5px;
+
+}
+
+
+
+
+
+
+
+.bottom{
+    border-top: 2px solid  #E8E9EC;;
+    margin: 28px 0 88px 0;
+    width: 350px;
+    height: 1px;
+    flex-shrink: 0;
+
+}
+
